@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+.NavContainer{
+	position: relative;
+	margin-top:-3.24%;
+	
+}
+
+ul {
+    list-style-type: none;
+   
+    padding: 0px;
+    width: 18%;
+    background-color: #345678;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 10%;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li#Dashboard{
+	background-color:#345678;
+	color: white;
+	
+	
+}
+li#PatientsList{
+	background-color:#F2583E;
+	color: white;
+	
+	
+}
+li#LogOut{
+	background-color: #77BED2;
+	color: white;
+	
+	
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.Test1{
+	margin-left: 20%;
+	
+}
+.Test2{
+	margin-left: 20%;
+}
+</style>

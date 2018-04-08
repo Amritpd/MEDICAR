@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+.NavContainer{
+	position: relative;
+	margin-top:-4.24%;
+	
+}
+.PatientBiometricsOverflow{
+	overflow: scroll;
+	height: 550px;
+	width: 1100px;
+	
+	
+}
+.FilesContainer{
+	margin-left: 10px;
+}
+ul {
+    list-style-type: none;
+   
+    padding: 0px;
+    width: 18%;
+    background-color: 	#345678;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 10%;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li#Dashboard{
+	background-color: #D5E1DD;
+	color: white;
+	
+	
+}
+li#PatientsList{
+	background-color:#F2583E;
+	color: white;
+	
+	
+}
+li#LogOut{
+	background-color: #77BED2;
+	color: white;
+	
+	
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.Test1{
+	margin-left: 15%;
+	
+}
+.Test2{
+	margin-left: 20%;
+}
+.Test3{
+	margin-left: 20%;
+	margin-top:10%;
+}
+.row-bottom-padded {
+	margin-bottom: 40px
+}
